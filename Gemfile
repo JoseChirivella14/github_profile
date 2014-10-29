@@ -48,6 +48,7 @@ gem 'unicorn'
 gem 'rails_12factor', group: :production
 gem "figaro"
 gem 'foundation-rails', '~> 5.4.5'
+gem "font-awesome-rails"
 
 group :development, :test do
   gem "better_errors"
