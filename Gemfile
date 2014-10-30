@@ -40,7 +40,8 @@ gem 'bcrypt', '~> 3.1.7'
 gem 'will_paginate', '~> 3.0'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
+gem 'bourbon'
+gem 'neat'
 gem "quiet_assets", group: :development
 gem "letter_opener", :group => :development
 gem 'simple_form'

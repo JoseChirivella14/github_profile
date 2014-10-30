@@ -1,5 +1,4 @@
 Rails.application.routes.draw do
-  get 'profiles/index'
 
   root 'profiles#index'
   get 'proxy/github.json' => "profiles#index"
